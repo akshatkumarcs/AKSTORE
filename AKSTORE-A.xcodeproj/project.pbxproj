@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC66DB5A268F5BDC00F72805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66DB59268F5BDC00F72805 /* AppDelegate.swift */; };
+		AC66DB5C268F5BDC00F72805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66DB5B268F5BDC00F72805 /* SceneDelegate.swift */; };
+		AC66DB5E268F5BDC00F72805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66DB5D268F5BDC00F72805 /* ViewController.swift */; };
+		AC66DB61268F5BDC00F72805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66DB5F268F5BDC00F72805 /* Main.storyboard */; };
+		AC66DB64268F5BDC00F72805 /* AKSTORE_A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC66DB62268F5BDC00F72805 /* AKSTORE_A.xcdatamodeld */; };
+		AC66DB66268F5BDF00F72805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC66DB65268F5BDF00F72805 /* Assets.xcassets */; };
+		AC66DB69268F5BDF00F72805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66DB67268F5BDF00F72805 /* LaunchScreen.storyboard */; };
+		AC66DB74268F5BE000F72805 /* AKSTORE_ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66DB73268F5BE000F72805 /* AKSTORE_ATests.swift */; };
+		AC66DB7F268F5BE000F72805 /* AKSTORE_AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66DB7E268F5BE000F72805 /* AKSTORE_AUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC66DB70268F5BE000F72805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC66DB4E268F5BDC00F72805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC66DB55268F5BDC00F72805;
+			remoteInfo = "AKSTORE-A";
+		};
+		AC66DB7B268F5BE000F72805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC66DB4E268F5BDC00F72805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC66DB55268F5BDC00F72805;
+			remoteInfo = "AKSTORE-A";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC66DB56268F5BDC00F72805 /* AKSTORE-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKSTORE-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66DB59268F5BDC00F72805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC66DB5B268F5BDC00F72805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC66DB5D268F5BDC00F72805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC66DB60268F5BDC00F72805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC66DB63268F5BDC00F72805 /* AKSTORE_A.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AKSTORE_A.xcdatamodel; sourceTree = "<group>"; };
+		AC66DB65268F5BDF00F72805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC66DB68268F5BDF00F72805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC66DB6A268F5BDF00F72805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC66DB6F268F5BE000F72805 /* AKSTORE-ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKSTORE-ATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66DB73268F5BE000F72805 /* AKSTORE_ATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSTORE_ATests.swift; sourceTree = "<group>"; };
+		AC66DB75268F5BE000F72805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC66DB7A268F5BE000F72805 /* AKSTORE-AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKSTORE-AUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66DB7E268F5BE000F72805 /* AKSTORE_AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSTORE_AUITests.swift; sourceTree = "<group>"; };
+		AC66DB80268F5BE000F72805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC66DB53268F5BDC00F72805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66DB6C268F5BE000F72805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66DB77268F5BE000F72805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC66DB4D268F5BDC00F72805 = {
+			isa = PBXGroup;
+			children = (
+				AC66DB58268F5BDC00F72805 /* AKSTORE-A */,
+				AC66DB72268F5BE000F72805 /* AKSTORE-ATests */,
+				AC66DB7D268F5BE000F72805 /* AKSTORE-AUITests */,
+				AC66DB57268F5BDC00F72805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC66DB57268F5BDC00F72805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC66DB56268F5BDC00F72805 /* AKSTORE-A.app */,
+				AC66DB6F268F5BE000F72805 /* AKSTORE-ATests.xctest */,
+				AC66DB7A268F5BE000F72805 /* AKSTORE-AUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC66DB58268F5BDC00F72805 /* AKSTORE-A */ = {
+			isa = PBXGroup;
+			children = (
+				AC66DB59268F5BDC00F72805 /* AppDelegate.swift */,
+				AC66DB5B268F5BDC00F72805 /* SceneDelegate.swift */,
+				AC66DB5D268F5BDC00F72805 /* ViewController.swift */,
+				AC66DB5F268F5BDC00F72805 /* Main.storyboard */,
+				AC66DB65268F5BDF00F72805 /* Assets.xcassets */,
+				AC66DB67268F5BDF00F72805 /* LaunchScreen.storyboard */,
+				AC66DB6A268F5BDF00F72805 /* Info.plist */,
+				AC66DB62268F5BDC00F72805 /* AKSTORE_A.xcdatamodeld */,
+			);
+			path = "AKSTORE-A";
+			sourceTree = "<group>";
+		};
+		AC66DB72268F5BE000F72805 /* AKSTORE-ATests */ = {
+			isa = PBXGroup;
+			children = (
+				AC66DB73268F5BE000F72805 /* AKSTORE_ATests.swift */,
+				AC66DB75268F5BE000F72805 /* Info.plist */,
+			);
+			path = "AKSTORE-ATests";
+			sourceTree = "<group>";
+		};
+		AC66DB7D268F5BE000F72805 /* AKSTORE-AUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC66DB7E268F5BE000F72805 /* AKSTORE_AUITests.swift */,
+				AC66DB80268F5BE000F72805 /* Info.plist */,
+			);
+			path = "AKSTORE-AUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC66DB55268F5BDC00F72805 /* AKSTORE-A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66DB83268F5BE000F72805 /* Build configuration list for PBXNativeTarget "AKSTORE-A" */;
+			buildPhases = (
+				AC66DB52268F5BDC00F72805 /* Sources */,
+				AC66DB53268F5BDC00F72805 /* Frameworks */,
+				AC66DB54268F5BDC00F72805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKSTORE-A";
+			productName = "AKSTORE-A";
+			productReference = AC66DB56268F5BDC00F72805 /* AKSTORE-A.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC66DB6E268F5BE000F72805 /* AKSTORE-ATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66DB86268F5BE000F72805 /* Build configuration list for PBXNativeTarget "AKSTORE-ATests" */;
+			buildPhases = (
+				AC66DB6B268F5BE000F72805 /* Sources */,
+				AC66DB6C268F5BE000F72805 /* Frameworks */,
+				AC66DB6D268F5BE000F72805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC66DB71268F5BE000F72805 /* PBXTargetDependency */,
+			);
+			name = "AKSTORE-ATests";
+			productName = "AKSTORE-ATests";
+			productReference = AC66DB6F268F5BE000F72805 /* AKSTORE-ATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC66DB79268F5BE000F72805 /* AKSTORE-AUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66DB89268F5BE000F72805 /* Build configuration list for PBXNativeTarget "AKSTORE-AUITests" */;
+			buildPhases = (
+				AC66DB76268F5BE000F72805 /* Sources */,
+				AC66DB77268F5BE000F72805 /* Frameworks */,
+				AC66DB78268F5BE000F72805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC66DB7C268F5BE000F72805 /* PBXTargetDependency */,
+			);
+			name = "AKSTORE-AUITests";
+			productName = "AKSTORE-AUITests";
+			productReference = AC66DB7A268F5BE000F72805 /* AKSTORE-AUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC66DB4E268F5BDC00F72805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AC66DB55268F5BDC00F72805 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AC66DB6E268F5BE000F72805 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AC66DB55268F5BDC00F72805;
+					};
+					AC66DB79268F5BE000F72805 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AC66DB55268F5BDC00F72805;
+					};
+				};
+			};
+			buildConfigurationList = AC66DB51268F5BDC00F72805 /* Build configuration list for PBXProject "AKSTORE-A" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC66DB4D268F5BDC00F72805;
+			productRefGroup = AC66DB57268F5BDC00F72805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC66DB55268F5BDC00F72805 /* AKSTORE-A */,
+				AC66DB6E268F5BE000F72805 /* AKSTORE-ATests */,
+				AC66DB79268F5BE000F72805 /* AKSTORE-AUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC66DB54268F5BDC00F72805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66DB69268F5BDF00F72805 /* LaunchScreen.storyboard in Resources */,
+				AC66DB66268F5BDF00F72805 /* Assets.xcassets in Resources */,
+				AC66DB61268F5BDC00F72805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66DB6D268F5BE000F72805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66DB78268F5BE000F72805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC66DB52268F5BDC00F72805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66DB5E268F5BDC00F72805 /* ViewController.swift in Sources */,
+				AC66DB5A268F5BDC00F72805 /* AppDelegate.swift in Sources */,
+				AC66DB5C268F5BDC00F72805 /* SceneDelegate.swift in Sources */,
+				AC66DB64268F5BDC00F72805 /* AKSTORE_A.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66DB6B268F5BE000F72805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66DB74268F5BE000F72805 /* AKSTORE_ATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66DB76268F5BE000F72805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66DB7F268F5BE000F72805 /* AKSTORE_AUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC66DB71268F5BE000F72805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC66DB55268F5BDC00F72805 /* AKSTORE-A */;
+			targetProxy = AC66DB70268F5BE000F72805 /* PBXContainerItemProxy */;
+		};
+		AC66DB7C268F5BE000F72805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC66DB55268F5BDC00F72805 /* AKSTORE-A */;
+			targetProxy = AC66DB7B268F5BE000F72805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC66DB5F268F5BDC00F72805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66DB60268F5BDC00F72805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC66DB67268F5BDF00F72805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66DB68268F5BDF00F72805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC66DB81268F5BE000F72805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC66DB82268F5BE000F72805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC66DB84268F5BE000F72805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AKSTORE-A/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akshatkumarcs.AKSTORE-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC66DB85268F5BE000F72805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AKSTORE-A/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akshatkumarcs.AKSTORE-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC66DB87268F5BE000F72805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AKSTORE-ATests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akshatkumarcs.AKSTORE-ATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKSTORE-A.app/AKSTORE-A";
+			};
+			name = Debug;
+		};
+		AC66DB88268F5BE000F72805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AKSTORE-ATests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akshatkumarcs.AKSTORE-ATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKSTORE-A.app/AKSTORE-A";
+			};
+			name = Release;
+		};
+		AC66DB8A268F5BE000F72805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AKSTORE-AUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akshatkumarcs.AKSTORE-AUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AKSTORE-A";
+			};
+			name = Debug;
+		};
+		AC66DB8B268F5BE000F72805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AKSTORE-AUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akshatkumarcs.AKSTORE-AUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AKSTORE-A";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC66DB51268F5BDC00F72805 /* Build configuration list for PBXProject "AKSTORE-A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66DB81268F5BE000F72805 /* Debug */,
+				AC66DB82268F5BE000F72805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC66DB83268F5BE000F72805 /* Build configuration list for PBXNativeTarget "AKSTORE-A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66DB84268F5BE000F72805 /* Debug */,
+				AC66DB85268F5BE000F72805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC66DB86268F5BE000F72805 /* Build configuration list for PBXNativeTarget "AKSTORE-ATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66DB87268F5BE000F72805 /* Debug */,
+				AC66DB88268F5BE000F72805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC66DB89268F5BE000F72805 /* Build configuration list for PBXNativeTarget "AKSTORE-AUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66DB8A268F5BE000F72805 /* Debug */,
+				AC66DB8B268F5BE000F72805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC66DB62268F5BDC00F72805 /* AKSTORE_A.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC66DB63268F5BDC00F72805 /* AKSTORE_A.xcdatamodel */,
+			);
+			currentVersion = AC66DB63268F5BDC00F72805 /* AKSTORE_A.xcdatamodel */;
+			path = AKSTORE_A.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC66DB4E268F5BDC00F72805 /* Project object */;
+}
